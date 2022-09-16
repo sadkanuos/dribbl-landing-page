@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors:{
         iBlue: 'hsl(259, 98%, 20%)',
-        iBlue2: 'hsl(260, 98%, 17%)',
+        iBlue2: 'hsl(260, 98%, 18%)',
+        bgBlue: 'hsl(224, 65%, 25%)',
         orangeAccent: 'hsl(356, 100%, 71%)',
         blueAccent: 'hsl(263, 99%, 46%)',
       },
