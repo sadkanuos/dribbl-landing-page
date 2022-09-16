@@ -10,6 +10,7 @@ module.exports = {
         bgBlue: 'hsl(224, 65%, 25%)',
         orangeAccent: 'hsl(356, 100%, 71%)',
         blueAccent: 'hsl(263, 99%, 46%)',
+        darkestBlue: 'hsl(220, 100%, 13%)',
       },
       fontFamily:{
         sans: ['Epilogue', 'sans-serif'],

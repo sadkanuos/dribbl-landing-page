@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
     <script src="script.js" defer></script>
     <title>Collab Site</title>
 </head>
-<body class="dark:bg-bgBlue dark:text-white font-roboto">
+<body class="bg-indigo-100 dark:bg-bgBlue dark:text-white font-roboto">
     <header class="container mx-auto mt-10 px-6 text-center h-40 md:h-20">
         <div class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10"></div>
         <div class="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10">
@@ -56,7 +56,7 @@
             <button class="p-3 rounded-full w-52 bg-orangeAccent hover:scale-95">Get Started</button>
         </div>
     </section>
-    <section id="features" class="pt-12 bg-gray-200 dark:bg-iBlue2">
+    <section id="features" class="pt-12 bg-[#B5C4FB] dark:bg-iBlue2">
         <div class="container mx-auto px-6 pb-32">
             <div class="flex flex-col space-y-24 text-center md:flex-row md:space-y-0">
                 <div class="flex flex-col items-center space-y-2 md:w-1/2">
@@ -104,7 +104,7 @@
             </div>
         </div>
     </section>
-    <section id="productive" class="bg-white bg-bgBlue">
+    <section id="productive" class="bg-indigo-100 dark:bg-bgBlue">
         <div class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16">
             <div class="md:w-1/2">
                 <img src="assets/deliver.png" alt="" class="mb-10">
@@ -148,5 +148,114 @@
             </div>
         </div>
     </section>
+    <section id="testimonials" class="bg-indigo-200 dark:bg-bgBlue">
+        <div class="container mx-auto px-6 pt-12 pb-80 md:pb-96">
+            <div class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12">
+                <img src="assets/quote.png" alt="" class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20">
+                <div class="flex flex-col p-10 space-y-6 rounded-lg bg-indigo-300 dark:bg-sky-900 md:w-1/3">
+                    <p class="text-sm leading-5 md:text-lg">
+                        We used Confluence for a few years and became fed-up with how slow and bloated it was. From there we jumped to MediaWiki, which was faster but it was unpolished, especially for non-technical members of our team and still a bit slow. We think dribbl found a niche in the crowded, bloated and aging wiki market and we're certainly glad they did.
+                    </p>
+                    <div class="flex space-x-4">
+                        <img src="assets/image-Callan Patrick.jpg" alt="" class="w-20 h-20 rounded-full">
+                        <div class="my-auto">
+                            <h5 class="text-sm font-semibold">Callan Patrick</h5>
+                            <p class="text-xs font-light">Innovation Strategist, Rapfelini</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex flex-col p-10 space-y-6 rounded-lg bg-indigo-300 dark:bg-sky-900  md:w-1/3">
+                    <p class="text-sm leading-5 mt-8 md:text-lg">
+                        In dribbl, both our team and leadership can understand what people are doing without having to constantly ask for updates. What makes dribbl so cool is how you link up many different pieces of information from different sources.
+                    </p>
+                    <div class="md:absolute md:bottom-10 md:left-8 flex space-x-4">
+                        <img src="assets/image-Alyce-Keith.jpg" alt="" class="w-20 h-20 rounded-full">
+                        <div class="my-auto">
+                            <h5 class="text-sm font-semibold">Alyce Keith</h5>
+                            <p class="text-xs font-light">Principal, Base2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex flex-col p-10 space-y-6 rounded-lg bg-indigo-300 dark:bg-sky-900 md:w-1/3">
+                    <p class="text-sm leading-5 md:text-lg">
+                        dribbl is the right choice for teams to start documenting their projects and ideas and collaborate without worrying about their budget at the beginning. If you are not sure what to use for your documentations and collaborations, check it out and you won't be disappointed.
+                    </p>
+                    <div class="md:absolute md:bottom-10 md:left-8 flex space-x-4">
+                        <img src="assets/image-luna-mora.jpg" alt="" class="w-20 h-20 rounded-full">
+                        <div class="my-auto">
+                            <h5 class="text-sm font-semibold">Luna Mora</h5>
+                            <p class="text-xs font-light">Chief of Staff to the CEO, Trace</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="early-access" class="relative px-6 dark:bg-darkestBlue md:px-0">
+        <div class="relative -top-40 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-indigo-400 dark:bg-indigo-900 md:px-16">
+            <h5 class="text-2xl font-bold">
+                Get early access today
+            </h5>
+            <p class="text-sm">
+                It only takes a minute to sign up to our free starter. You can add your whole team as the need grows. If you have any questions, our support team would be happy to help you.
+            </p>
+            <div class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+                <div class="w-full md:flex-1">
+                    <input type="text" class="w-full px-10 py-3 rounded-full focus:outline-none" placeholder="example@example.com">
+                </div>
+                <button class="w-full p-3 px-6 rounded-full bg-orangeAccent md:w-56 hover:scale-95">Get Started!</button>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-darkestBlue text-white">
+        <div class="container mx-auto pt-12 px-5 pb-10">
+            <div class="flex flex-col justify-between space-y-24 md:flex-row md:space-y-0">
+                <div class="mt-10 space-y-6">
+                    <div class="flex items-center space-x-3 md:-mt-10">
+                        <div class="w-6">
+                            <img src="assets/icon-phone.svg" alt="" class="scale-10">
+                        </div>
+                        <div>+91 58249 98452+</div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-6">
+                            <img src="assets/icon-email.svg" alt="" class="scale-10">
+                        </div>
+                        <div>example@dribbl.com</div>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-10 text-xl md:text-base md:space-x-20 md:space-y-0 md:flex-row">
+                    <div class="flex flex-col space-y-3">
+                        <a href="#" class="">About</a>
+                        <a href="#" class="">Jobs</a>
+                        <a href="#" class="">Press</a>
+                        <a href="#" class="">Blog</a>
+                    </div>
+                    <div class="flex flex-col space-y-3">
+                        <a href="#" class="">Contact Us</a>
+                        <a href="#" class="">Terms & Services</a>
+                        <a href="#" class="">Privacy</a>
+                    </div>
+                </div>
+                <div class="flex justify-center pb-10 space-x-3">
+                    <div>
+                        <a href="" class="">
+                            <img src="assets/facebook.svg" alt="" class="p-2 bg-blue-900 rounded-full ficon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="">
+                            <img src="assets/twitter.svg" alt="" class="p-2 bg-blue-900 rounded-full ficon">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="">
+                            <img src="assets/instagram.svg" alt="" class="p-2 bg-blue-900 rounded-full ficon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
